@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContaFácil - MPIntegração</string>
+    <string name="txt_home">Tela Inicial</string>
+    <string name="txt_vendas">Vendas</string>
+</resources>

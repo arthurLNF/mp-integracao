@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment2"
+            android:title="@string/txt_home" />
+        <item
+            android:id="@+id/vendasFragment2"
+            android:title="@string/txt_vendas" />
+    </group>
+
+</menu>

@@ -1,4 +1,4 @@
-package br.com.contafacil.contafacilaegea
+package br.com.contafacil.mpintegracao
 
 import org.junit.Test
 

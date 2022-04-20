@@ -1,4 +1,4 @@
-package br.com.contafacil.contafacilaegea
+package br.com.contafacil.mpintegracao
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

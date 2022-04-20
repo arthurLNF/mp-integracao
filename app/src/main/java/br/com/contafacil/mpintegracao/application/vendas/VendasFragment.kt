@@ -85,7 +85,6 @@ class VendasFragment : Fragment() {
 // App Fee
 
 // App Fee
-        //Sounds great, doesn't work
         bundle.putDouble(BundleCodes.APP_FEE, 1.0)
 
 // Amount of transaction
@@ -112,7 +111,6 @@ class VendasFragment : Fragment() {
 // Payment type of transaction ( credit_card | debit_card  )
         bundle.putString(BundleCodes.CARD_TYPE, cc_selected)
         if(cc_selected == "credit_card"){
-            //Sounds great, doesn't work
             val parcelas = Integer.valueOf(spnParcelas.selectedItem.toString())
             bundle.putInt(BundleCodes.INSTALLMENTS, parcelas)
         }

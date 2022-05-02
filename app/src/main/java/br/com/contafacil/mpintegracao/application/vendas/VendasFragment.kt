@@ -92,7 +92,11 @@ class VendasFragment : Fragment() {
 // Amount of transaction
         bundle.putDouble(
             BundleCodes.AMOUNT,
-            java.lang.Double.valueOf(MoneyTextWatcher.formatarValorVindoDoTextWatcher((edtValor.getText().toString())))
+            java.lang.Double.valueOf(
+                MoneyTextWatcher.formatarValorVindoDoTextWatcher(
+                    (edtValor.getText().toString())
+                )
+            )
         )
 
 // Description of transaction
@@ -110,15 +114,11 @@ class VendasFragment : Fragment() {
 
 // Payment type of transaction ( credit_card | debit_card  )
         bundle.putString(BundleCodes.CARD_TYPE, cc_selected)
-        if(cc_selected == "credit_card"){
+        if (cc_selected == "credit_card") {
             val parcelas = Integer.valueOf(spnParcelas.selectedItem.toString())
-            bundle.putInt(BundleCodes.INSTALLMENTS, parcelas)
+            bundle.putLong(BundleCodes.INSTALLMENTS, parcelas.toLong())
         }
 
-// # of installments
-
-// # of installments
-        bundle.putInt(BundleCodes.INSTALLMENTS, 1)
 
 // Kiosk Mode
 
